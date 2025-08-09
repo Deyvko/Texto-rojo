@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "class CoordinateManager { constructor(config = {}) { // Configuración por defecto this.config = { baseCoordinates: config.baseCoordinates || { x: 500, y: 500 }, maxRadius: config.maxRadius || 50, cooldownMs: config.cooldownMs || 3000, enableLogging: config.enableLogging || false, …config };",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "check": "node bot.js --check",
+    "start": "node bot.js",
+    "start:headless": "HEADLESS=true node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deyvko/Texto-rojo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deyvko/Texto-rojo/issues"
+  },
+  "homepage": "https://github.com/Deyvko/Texto-rojo#readme",
+  "dependencies": {
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.16.0"
+  }
+}
